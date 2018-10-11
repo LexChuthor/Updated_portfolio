@@ -78,6 +78,8 @@ h1 {
 	font-size:48px;
 	line-height:57px;
 	font-weight:700;
+	color:white;
+	text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 	margin:0px;
 	padding-bottom:8px;
 }
@@ -89,7 +91,7 @@ h2 {
 	font-weight:400;
 	text-transform:uppercase;
 	margin:0px;
-	border-bottom:# 6px solid;
+	border-bottom:black 6px solid;
 	padding-bottom:9px;
 	display:inline-block;
 }
@@ -196,7 +198,7 @@ header {
 	line-height:52px;
 	color:#fff;
 	font-size:14px;
-	background-color:#;
+	background-color:red;
 	text-transform:uppercase;
 	padding:0 29px;
 	}
@@ -434,23 +436,23 @@ header {
 	}
 .navbar.navbar-inverse.navbar-static-top a:hover {
 	background:#ffffff;
-	color:#;
+	color:blue;
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus {
 	background:#ffffff;
 	/*color:#c3c8d6;*/
-	color:#;
+	color:darkblue;
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus{
 	background:#ffffff;
 	/*color:#c3c8d6;*/
-	color:#;
+	color:orange;
 	}
 .navbar-inverse .navbar-nav>.active>a:hover {
 	/*background:#1b1f29;*/
 	/*color:#fff;*/
 	background:#ffffff;
-	color:#;
+	color:red;
 }
 .hideClass {
 	display:none;
@@ -530,7 +532,7 @@ header {
 	bottom:0;
 	width:100%;
 	z-index:2;
-	background:url(http://placehold.it/1024x683) no-repeat 50% 50%;
+	/* background:url(http://placehold.it/1024x683) no-repeat 50% 50%; */
 	min-height: 100%;
 	min-width: 100%;
 	background-size: cover;
@@ -728,7 +730,7 @@ header {
 	font-weight:bold;
 	}
 .prevY{
-	background-color:#;
+	background-color:red;
 	}
 .afterY{
 	background-color:#483c49;
